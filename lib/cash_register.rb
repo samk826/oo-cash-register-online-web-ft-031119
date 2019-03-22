@@ -23,6 +23,6 @@ else
 end
 end
 
-end items
+def items
 @items
 end

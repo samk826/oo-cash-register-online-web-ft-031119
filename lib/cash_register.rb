@@ -10,6 +10,6 @@ def add_item(item, price, optional_quantity=1)
 end
 
 def apply_discount
-  self.total = self.total* self.discount
+  self.total -= self.total* self.discount
 end
 end

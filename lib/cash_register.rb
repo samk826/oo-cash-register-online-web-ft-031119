@@ -7,7 +7,7 @@ def initialize(discount=0)
 end
 
 def add_item(item, price, optional_quantity=1)
-  optional_quantity.time do
+  optional_quantity.times do
   @items<<item
 end
 @total += (price * optional_quantity)

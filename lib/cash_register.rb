@@ -7,8 +7,9 @@ def initialize(discount=0)
 end
 
 def add_item(item, price, optional_quantity=1)
-  @total += (price * optional_quantity)
-  
+  i=0
+  while optional_quantity.time do 
+  @items<<item
 end
 
 def apply_discount
@@ -19,4 +20,7 @@ else
   "There is no discount to apply."
 end
 end
+
+end items
+@items
 end

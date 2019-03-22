@@ -10,6 +10,7 @@ def add_item(item, price, optional_quantity=1)
   optional_quantity.times do
   @items<<item
 end
+end
 @total += (price * optional_quantity)
 
 end

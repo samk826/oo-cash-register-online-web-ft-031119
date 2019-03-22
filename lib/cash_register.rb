@@ -12,6 +12,8 @@ def add_item(item, price, optional_quantity=1)
   @items<<item
 end
 @total += (price * optional_quantity)
+
+end
 def apply_discount
   if discount !=0
   self.total -= self.total* self.discount/100
